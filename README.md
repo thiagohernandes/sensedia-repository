@@ -1,4 +1,4 @@
-# Prj: sensedia-repository: front-end e back-end
+# Prj: sensedia-repository
 @author: Thiago Hernandes de Souza
 
 Estrutura do projeto:
@@ -18,8 +18,4 @@ cd google-access
 npm install
 ng serve
 Acessar: http://localhost:4200
-
-
-
-
 
