@@ -1,0 +1,30 @@
+<div style="text-align:center">
+  <div>
+    <h1>
+      <img width="100" src="assets\images\google.png">
+      Google Login Sensedia
+    </h1>
+  </div>
+  <div>
+    <button type="button" class="btn btn-primary button-space" (click)="login()">Logar</button>
+    <button type="button" class="btn btn-secondary" (click)="logout()">Logout</button>
+  </div> <br/>
+  <div *ngIf="authenticate() else tplNaoLogado">
+    <h3>
+      <img width="70" src="assets\images\connected.png">
+      Conectado
+    </h3>
+    <br/>
+    <h4>
+      {{authenticateMsg()}}
+    </h4>
+  </div>
+  <ng-template #tplNaoLogado>
+    <h3>
+    <img width="70" src="assets\images\disconnected.png">
+     Desconectado
+    </h3>
+  </ng-template>
+</div>
+
+
