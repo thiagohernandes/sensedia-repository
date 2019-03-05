@@ -3,19 +3,18 @@
 
 Estrutura do projeto:
 
-sensedia-repository
-	|____ google-access
+sensedia-repository > google-access
 
 # Instruções:
 
-git clone https://github.com/thiagohernandes/sensedia-repository.git
+git clone https://github.com/thiagohernandes/sensedia-repository.git <br />
 git checkout dev
 
 # Executar o projeto:
 
-cd sensedia-repository
-cd google-access
-npm install
-ng serve
+cd sensedia-repository <br />
+cd google-access <br />
+npm install <br />
+ng serve <br />
 Acessar: http://localhost:4200
 
