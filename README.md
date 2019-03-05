@@ -4,19 +4,16 @@
 Estrutura do projeto:
 
 sensedia-repository
-	|____ back-end
-	|____ front-end
-		  |____ google-access
+	|____ google-access
 
 # Instruções:
 
 git clone https://github.com/thiagohernandes/sensedia-repository.git
 git checkout dev
 
-# front-end:
+# Executar o projeto:
 
 cd sensedia-repository
-cd front-end
 cd google-access
 npm install
 ng serve
